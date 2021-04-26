@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 from flask_sqlalchemy import SQLAlchemy
-from mycode.Resources.ItemResouce import ItemResource, PostItemResource
+from Resources.ItemResouce import ItemResource, PostItemResource
 
 db = SQLAlchemy()
 app = Flask(__name__)
