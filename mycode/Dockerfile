@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY . /mycode
 
-CMD ["gunicorn","app.py"]
+ENTRYPOINT ["./gunicorn.sh"]
